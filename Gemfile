@@ -41,9 +41,11 @@ end
 
 group :test do
   gem 'rspec-rails'
-  gem 'webrat'
   gem 'rspec'
   gem 'test-unit'
   gem 'cucumber'
+  gem 'cucumber-rails'
+  gem 'capybara'
+  gem 'database_cleaner'
 end
 
