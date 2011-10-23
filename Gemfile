@@ -21,7 +21,8 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'activeadmin'
 gem "meta_search", '>= 1.1.0.pre'
-gem "spork", :git => "git://github.com/chrismdp/spork.git"
+gem "spork", "0.9.0.rc9"
+gem "russian"
 
 # Use unicorn as the web server
 gem 'unicorn'

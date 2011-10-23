@@ -1,10 +1,4 @@
 GIT
-  remote: git://github.com/chrismdp/spork.git
-  revision: 63761d5cb9e00817e9f1508d00784f22382aac32
-  specs:
-    spork (0.9.0.rc2)
-
-GIT
   remote: git://github.com/jeremyolliver/annotate_models.git
   revision: 4d57e4fe6360125f17886168120a48091a268e45
   branch: rake_compatibility
@@ -205,6 +199,8 @@ GEM
     ruby_core_source (0.1.5)
       archive-tar-minitar (>= 0.5.2)
     rubyzip (0.9.4)
+    russian (0.6.0)
+      i18n (>= 0.5.0)
     sass (3.1.10)
     sass-rails (3.1.4)
       actionpack (~> 3.1.0)
@@ -217,6 +213,7 @@ GEM
       ffi (= 1.0.9)
       json_pure
       rubyzip
+    spork (0.9.0.rc9)
     sprockets (2.0.3)
       hike (~> 1.2)
       rack (~> 1.0)
@@ -264,8 +261,9 @@ DEPENDENCIES
   rspec
   rspec-rails
   ruby-debug19
+  russian
   sass-rails (~> 3.1.0)
-  spork!
+  spork (= 0.9.0.rc9)
   sqlite3
   test-unit
   therubyracer
