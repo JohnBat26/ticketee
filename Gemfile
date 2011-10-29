@@ -21,7 +21,7 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'activeadmin'
 gem "meta_search", '>= 1.1.0.pre'
-gem "spork", "0.9.0.rc9"
+gem "spork"
 gem "russian"
 
 # Use unicorn as the web server
@@ -35,6 +35,7 @@ gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :development do
   gem 'rspec-rails'
+  gem 'cucumber-rails', '1.0.6'
   gem 'rails-dev-boost', :git => 'git://github.com/thedarkone/rails-dev-boost.git', :require => 'rails_development_boost'
   gem 'annotate', :git => 'git://github.com/jeremyolliver/annotate_models.git', :branch => 'rake_compatibility'
 end
@@ -45,7 +46,7 @@ group :test do
   gem 'rspec'
   gem 'test-unit'
   gem 'cucumber'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', '1.0.6'
   gem 'capybara'
   gem 'database_cleaner'
 end
